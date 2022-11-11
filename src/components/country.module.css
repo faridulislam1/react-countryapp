@@ -1,0 +1,35 @@
+.country{
+    background-color:rgb(33, 20, 43) ;
+    color:rgb(238, 232, 232);
+    display: flex;
+    justify-content:center;
+    padding: 1rem;
+    margin:1rem;
+    height:100;
+    font-family:'Times New Roman', Times, serif;
+    font-size:16px;
+    text-align: center;
+    border-radius:0.7rem;
+    transition: all 0.5s;
+}
+.country:hover{
+    transform: scale(1.1);
+}
+.flag{
+    width:16rem;
+    height:8rem;
+
+}
+.btn{
+    border:none;
+    border-radius: 0.6rem;
+    padding: 0.6rem;
+    margin:0.8rem;
+    cursor:pointer;
+    background-color: rgb(246, 182, 9);
+    transition: all 0.3s;
+}
+.btn:hover{
+    background-color: rgb(54, 222, 157);
+    color:white;
+}
